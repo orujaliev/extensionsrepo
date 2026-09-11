@@ -27,7 +27,7 @@ function activate(context) {
 
     const sitatlar = [
         'Inkişaf təkrarlanan sonsuz bir prosesdir',
-        'Uğur şans deyil, gündəlik şeylərdir',
+        'Uğur şans deyil, gündəlik səylərdir',
         'Dünya səndən kim olduğunu soruşacaq, əgər bilmirsənsə o sənə deyəcək (Carl Jung).',
         'Əgər kodunda Bug varsa, Productionda mutləq çıxacaq. Mörfi qanunlarından.',
         'Əgər vaxtın olanda kod yazmirsansa, işin olanda heç yazmayacaqsan',
@@ -54,4 +54,3 @@ module.exports = {
 	activate,
 	deactivate
 }
-
