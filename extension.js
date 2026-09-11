@@ -26,11 +26,18 @@ function activate(context) {
 	const disposable = vscode.commands.registerCommand('js-learn.Letithappen', function () {
 
     const sitatlar = [
-        '',
-        '',
-        '',
-        '',
-        ''
+        'Inkişaf təkrarlanan sonsuz bir prosesdir',
+        'Uğur şans deyil, gündəlik şeylərdir',
+        'Dünya səndən kim olduğunu soruşacaq, əgər bilmirsənsə o sənə deyəcək (Carl Jung).',
+        'Əgər kodunda Bug varsa, Productionda mutləq çıxacaq. Mörfi qanunlarından.',
+        'Əgər vaxtın olanda kod yazmirsansa, işin olanda heç yazmayacaqsan',
+		'Süuraltınızı şüurlu hala gətirənə qədər o həyatınızı istiqamətləndirəcək, siz buna taleh deyəcəksiniz.(Carl Jung)',
+		'Məntiq sizi A nöqtəsindən B nöqtəsinə aparacaq Təxəyyül hər yerə. (Albert Einstein)',
+		'Öz yolunu tapdıqdan sonra, hər kəsin fikri sadəcə stringə çevrilir',
+		'Errorlar heç vaxt yox olmur, Onunla yaşamağı öyrənirsən.',
+		'Sən düşündüyündən daha güclüsən',
+		'Zeka insana verilə bilir, amma istiqamət insanın öz seçimi olur.',
+		''
     ];
 
     const random = Math.floor(Math.random() * sitatlar.length);
@@ -47,3 +54,4 @@ module.exports = {
 	activate,
 	deactivate
 }
+
