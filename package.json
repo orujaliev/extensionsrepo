@@ -1,21 +1,36 @@
 {
   "name": "js-learn",
-  "displayName": "js-learn",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Motivasiya Sitatları",
+  "description": "Qısa yol ilə təsadüfi motivasiya cümləsi göstərir (Ctrl+Alt+M). 'sitat' yazanda da çıxır.",
+  "version": "0.0.3",
+  "publisher": "orujaliev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+        "url": "https://github.com/orujaliev/extensionsrepo"
+  },
   "engines": {
-    "vscode": "^1.136.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "js-learn.Letithappen",
-      "title": "Letithappen"
-    }]
+    "commands": [
+      {
+        "command": "js-learn.Letithappen",
+        "title": "Motivasiya: Sitat göstər"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "js-learn.Letithappen",
+        "key": "ctrl+alt+m",
+        "mac": "cmd+alt+m"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
@@ -23,7 +38,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.136.0",
+    "@types/vscode": "^1.80.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "24.x",
     "eslint": "^10.5.0",
