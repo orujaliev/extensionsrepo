@@ -1,8 +1,8 @@
 {
   "name": "js-learn",
-  "displayName": "Motivasiya Sitatları",
+  "displayName": "Sajjat's first extension",
   "description": "Qısa yol ilə təsadüfi motivasiya cümləsi göstərir (Ctrl+Alt+M). 'sitat' yazanda da çıxır.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "orujaliev",
   "license": "MIT",
   "repository": {
